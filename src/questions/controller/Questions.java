@@ -38,13 +38,13 @@ public class Questions
 
 	}
 
-	private void askQuestions()
-	{
-		System.out.println("What is your name?");
-		String answer = questionScanner.next();
-		System.out.println("Hello \"" + answer + "\". How are you?");
-		questionScanner.nextLine();
-		answer = questionScanner.nextLine();
-		System.out.println("I honestly couldn't care less");
-	}
+	// private void askQuestions()
+	// {
+	// System.out.println("What is your name?");
+	// String answer = questionScanner.next();
+	// System.out.println("Hello \"" + answer + "\". How are you?");
+	// questionScanner.nextLine();
+	// answer = questionScanner.nextLine();
+	// System.out.println("I honestly couldn't care less");
+	// }
 }
